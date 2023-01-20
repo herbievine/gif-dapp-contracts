@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.devnet]
+gif_bank_contract = "E8Eyj3PGqD1nTcB7L9UuX3MkaW3YJXoT11hx81YbfCnp"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Devnet"
+wallet = "/Users/herbie/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
